@@ -34,6 +34,6 @@ jobs:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
           tags: latest
-          labels: duck22api
+          labels: seruser5626/duck22api
           cache-from: type=gha
           cache-to: type=gha,mode=max
